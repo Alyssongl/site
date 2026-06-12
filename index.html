@@ -90,9 +90,22 @@
                 <label for="telefone">Telefone:</label>
                 <input type="tel" id="telefone" name="telefone" required><br>
 
-                <button type="submit">Enviar</button>
-        
-        </form>
+                <label for="assunto">Assunto:</label><br>
+                <select id="assunto" name="assunto">
+                    <option value="projeto">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="sugestao">Outro</option>
+                </select><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="35" required></textarea><br>
+
+                <input type="checkbox" id="inscricao" name="incricao"> <!-- Checkbox para inscrição em novidades -->
+                <label for="inscricao">Desejo receber novidades por email.</label><br>
+
+                <input type="submit" value="Enviar"> <!-- Botão de envio do formulário -->
+
+            </form>
 
         </section>
 
